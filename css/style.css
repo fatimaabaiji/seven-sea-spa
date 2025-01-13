@@ -1,10 +1,11 @@
 
 body{
-    background-color: yellow;
+    background-color: rgb(246, 246, 240);
 }
 #navbar {
     background-color:white;
     color: #3b2f2f;
+    position: sticky;
    
 }
 .nav-link.active {
@@ -32,4 +33,30 @@ body{
 
 .btn:hover {
     background-color: #2e2626;
+}
+/*
+#height {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 20px;
+}*/
+#left{
+    text-align: left;
+}
+
+ #card {
+    background-color: white;
+    border: 1px solid #8e0a0a;
+    border-radius: 5px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 300px; /* Set a fixed height for all cards */
+}
+@media screen and (min-width: 768px) {
+   #height #card {
+        height: 200px; /* Set a fixed height for all cards */
+    }
+    
 }
