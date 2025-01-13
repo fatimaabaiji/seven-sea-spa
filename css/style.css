@@ -1,0 +1,16 @@
+
+body{
+    background-color: yellow;
+}
+#navbar {
+    background-color:white;
+    color: #3b2f2f;
+   
+}
+.nav-link.active {
+    font-weight: bold;
+}
+#logo{
+    max-height: 30px;
+    max-width: 30px;
+}
